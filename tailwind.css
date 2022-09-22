@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Epilogue', sans-serif;
+}
+
+.nav_link {
+  @apply hover:text-blue-600;
+}
+
+.white_button {
+  @apply rounded-md border border-borderButton bg-white h-12 w-[138px] hover:bg-gray-800;
+}
+
+.contact_me {
+  @apply h-4 capitalize text-butonTextColor font-medium text-base left-[15.55%] right-[16.33%] text-center;
+}
+.hero_section {
+  @apply p-6;
+}
+.Mine {
+  @apply font-extrabold tracking-[-2px] text-[56px] text-hiColor;
+}
+.paragraph {
+  @apply font-normal text-base leading-8 text-hiColor;
+}
+.flex_container {
+  @apply flex flex-row mx-auto;
+}
